@@ -1,0 +1,37 @@
+Package: ggcircular
+Type: Package
+Title: Extensions to 'ggplot2' for circular data
+Version: 0.1.0
+Date: 2024-03-07
+Authors@R:
+    c(
+    person("Pedro J.", "Aphalo", email = "pedro.aphalo@helsinki.fi", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-3385-972X"))
+    )
+Maintainer: Pedro J. Aphalo <pedro.aphalo@helsinki.fi>
+Description: Extensions to 'ggplot2' respecting the grammar of graphics 
+    paradigm. Statistics for circular data.
+License: GPL (>= 2)
+LazyLoad: TRUE
+ByteCompile: TRUE
+Depends:
+    R (>= 4.0.0),
+    ggplot2 (>= 3.5.0)
+Imports:
+    stats,
+    grid,
+    grDevices,
+    circular (>= 0.5-0),
+    rlang (>= 1.0.6),
+    scales (>= 1.2.0)
+Suggests:
+    knitr (>= 1.40),
+    rmarkdown (>= 2.20),
+    gginnards(>= 0.1.1),
+    testthat (>= 3.1.5),
+    vdiffr (>= 1.0.5)
+URL: https://docs.r4photobiology.info/ggcircular/, 
+     https://github.com/aphalo/ggcircular
+BugReports: https://github.com/aphalo/ggcircular/issues
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr

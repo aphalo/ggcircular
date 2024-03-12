@@ -1,5 +1,6 @@
 
-<!-- # ggpp <img src="man/figures/logo-ggpp.png" align="right" width="150"/> -->
+# ggcircular <img src="man/figures/logo.png" align="right" width="150"/>
+
 <!-- badges: start -->
 
 [![cran
@@ -14,17 +15,18 @@ Package ‘**ggcircular**’ extends the Grammar of Graphics implemented in
 package ‘ggplot2’ (\>= 3.5.0). The extensions add support for circular
 data with statistics that follow as much as possible the user interface
 of the equivalent existing summary statistics layer functions for linear
-and 2D linear data.
+and 2D linear data. It uses package ‘circular’ as a foundation.
 
 ## Statistics
 
 My aim is to define circular versions of `stat_density()`,
-`stat_density_2D()`, `stat_bin()` and `stat_bin_2D()`. I am not yet sure
-if `stat_smooth()` needs a circular version or can be used as is.
+`stat_density_2D()`, `stat_bin()` and `stat_bin_2D()`, and a scale
+`scale_x_circular()`. A circular version of `stat_smooth()` could be
+added later.
 
 ## Examples
 
-## Installation
+## Installation (NOT YET POSSIBLE)
 
 Installation of the most recent stable version from CRAN (sources, Mac
 and Win binaries):
@@ -50,7 +52,7 @@ Installation of the current unstable version from GitHub (from sources):
 remotes::install_github("aphalo/ggcircular")
 ```
 
-## Documentation
+## Documentation (NOT YET PUBLISHED)
 
 HTML documentation for the package, including help pages and the *User
 Guide*, is available at
@@ -76,7 +78,7 @@ If you use this package to produce scientific or commercial
 publications, please cite according to:
 
 ``` r
-citation("ggpp")
+citation("ggcircular")
 ```
 
 ## Acknowledgements
@@ -86,10 +88,9 @@ Being an extension to package ‘ggplot2’, some of the code in package
 functions in ‘ggplot2’. The user interface of ‘ggcircular’ aims at being
 as consistent as possible with ‘ggplot2’ and the layered grammar of
 graphics (Wickham 2010). New features added in ‘ggplot2’ are added when
-relevant to ‘ggcircular’, such as support for `orientation` for flipping
-of layers. This package does consequently indirectly include significant
-contributions from several of the authors and maintainers of ‘ggplot2’,
-listed at (<https://ggplot2.tidyverse.org/>).
+relevant to ‘ggcircular’. This package does consequently indirectly
+include significant contributions from several of the authors and
+maintainers of ‘ggplot2’, listed at (<https://ggplot2.tidyverse.org/>).
 
 ## References
 
@@ -103,6 +104,6 @@ Computational and Graphical Statistics 19 (1): 3–28.
 
 ## License
 
-© 2016-2024 Pedro J. Aphalo (<pedro.aphalo@helsinki.fi>). Released under
-the GPL, version 2 or greater. This software carries no warranty of any
+© 2024 Pedro J. Aphalo (<pedro.aphalo@helsinki.fi>). Released under the
+GPL, version 2 or greater. This software carries no warranty of any
 kind.
